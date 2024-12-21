@@ -11,11 +11,15 @@ from skimage.filters import gaussian
 from collections import defaultdict
 from sklearn.cluster import KMeans
 from sklearn.svm import SVC
-from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import make_pipeline
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.decomposition import PCA
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from skimage.feature import hog
+from collections import Counter
+from sklearn.metrics import classification_report
 
 # Convolution:
 from scipy.signal import convolve2d

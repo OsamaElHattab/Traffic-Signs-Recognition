@@ -5,3 +5,5 @@
 /TSRD_Train
 /TSRD_Train_Annotation
 /__pycache__
+/images
+/cropped_images
