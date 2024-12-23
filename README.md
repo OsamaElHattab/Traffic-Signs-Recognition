@@ -33,7 +33,7 @@ You can install them using:
 ```bash
 pip install numpy opencv-python scikit-learn scikit-image joblib Pillow
 ```
-Make to download the Datasets
+Make sure to download the Datasets
 
 ## Dataset
 - **Drive link:**
