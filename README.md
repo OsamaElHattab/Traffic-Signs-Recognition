@@ -48,13 +48,13 @@ Make sure to download the Datasets
 ├── TSRD_Train                               # Training dataset
 ├── TSRD_Test                                # Test dataset
 ├── TSRD_Train_Annotation
-│   ├── TsignRecgTrain4170Annotation.txt     # Trainig dataset annotations
+│   └── TsignRecgTrain4170Annotation.txt     # Trainig dataset annotations
 ├── trained_model.pkl                        # Saved SVM model
 ├── commonfunctions.py                       # imports and common functions
 ├── project.ipynb                            # Main code
 ├── DatasetManipulation.ipynb                # Manipulating datasets
-└── README.md                                # Project documentation
-├── .gitignore                               # To avoid uploading the dataset
+├── README.md                                # Project documentation
+└── .gitignore                               # To avoid uploading the dataset
 ```
 
 ## How to Run
